@@ -1,5 +1,5 @@
-export default function ProductsDetails({params}){
-    const {productId} = params;
+export default async function ProductsDetails({params}){
+    const {productId} = await params;
     return (
         <>
             <h2>Product details page</h2>

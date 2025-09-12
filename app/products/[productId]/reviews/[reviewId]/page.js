@@ -1,5 +1,5 @@
-export default function ProductReviewDetails({ params }) {
-    const { productId, reviewId } = params
+export default async function ProductReviewDetails({ params }) {
+    const { productId, reviewId } = await params
     return (
         <>
             <h2>Reviews details of the particular products</h2>
