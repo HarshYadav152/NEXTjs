@@ -21,6 +21,28 @@ conatins
 - can be nested for different layout for different routes
 - called `Root Layout`
 
+### something interesting 
+here is Multiple root layout
+
+- (auth)
+   -  `register`
+        - `page.js`
+   -  `login`
+        - `page.js`
+    
+        `layout.js`
+- (marketing)
+   - `revenue`
+        - `page.js`
+   - `customers`
+        -  `page.js`
+
+        `layout.js`
+
+        `page.js`
+
+--- 
+this layout inside route groups are refered as Root Layout 
 --- 
 ## not found 404
 
