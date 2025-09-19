@@ -19,6 +19,7 @@ conatins
 - also usefull for setting html tags
 - accept `childern` props and rendered page inside this layout
 - can be nested for different layout for different routes
+- called `Root Layout`
 
 --- 
 ## not found 404
