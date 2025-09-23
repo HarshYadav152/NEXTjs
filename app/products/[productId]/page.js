@@ -10,6 +10,11 @@ export const generateMetadata = async({params,searchParams})=>{
 }
 
 export default async function ProductsDetails({params}){
+    await new Promise((resolve)=>{
+        setTimeout(()=>{
+            resolve("intensional delay")
+        },2000)
+    })
     const {productId} = await params;
     return (
         <>

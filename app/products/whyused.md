@@ -7,3 +7,5 @@ useing `params` props which is a Promise which resolve containing dynamic route 
 
 `layout.js` file is used inside [productId] folder for different layout however root layout is also showing 
 ### called Nested Layout
+
+`loading.js` as name suggest wrapup children in a loading state before full page content loaded
