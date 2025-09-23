@@ -3,3 +3,6 @@
 - /register
 - /login
 - /forgot-pass
+
+
+#### understanding pathname for identifying active link

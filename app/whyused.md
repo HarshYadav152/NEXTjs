@@ -49,6 +49,7 @@ this layout inside route groups are refered as Root Layout
 `not-found.js` optional
 - for custom not found page over the next js default
 
+Learing about metadata to add different title to nested pages
 
 #### all content added over time and updated as i learn more about nextJS
-> Last Updated 8:14 PM | 9 Sept 2025
+> Last Updated 1:22 PM | 23 Sept 2025
