@@ -12,7 +12,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "HavingNext",
+  title: {
+    default:"havingnext", // this is default fallback title of all nested routes or remaining route
+    template:"%s | Next 15", // add a suffix or prefix to the existing title
+    // absolute:"" // usefull for absolute title which override all previous title
+  },
   description: "Having Next",
 };
 
