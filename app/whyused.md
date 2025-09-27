@@ -52,4 +52,7 @@ this layout inside route groups are refered as Root Layout
 Learing about metadata to add different title to nested pages
 
 #### all content added over time and updated as i learn more about nextJS
-> Last Updated 1:22 PM | 23 Sept 2025
+
+**`error.js|tsx` is used for custom error also it worked for nested error files** 
+- you will find all necessory files here `./products/[productsId]/reviews/whyused.md`
+> Last Updated 7:45 PM | 27 Sept 2025
