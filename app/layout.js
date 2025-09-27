@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { ErrorWrapper } from "./error-wrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,8 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: {
-    default:"havingnext", // this is default fallback title of all nested routes or remaining route
-    template:"%s | Next 15", // add a suffix or prefix to the existing title
+    default: "havingnext", // this is default fallback title of all nested routes or remaining route
+    template: "%s | Next 15", // add a suffix or prefix to the existing title
     // absolute:"" // usefull for absolute title which override all previous title
   },
   description: "Having Next",
@@ -29,7 +30,9 @@ export default function RootLayout({ children }) {
         <header>
           <div>Header of the website</div>
         </header>
-        {children}
+        <ErrorWrapper>
+          {children}
+        </ErrorWrapper>
         <footer>
           <div>Footer of the website</div>
         </footer>

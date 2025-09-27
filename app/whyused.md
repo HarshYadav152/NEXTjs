@@ -54,5 +54,8 @@ Learing about metadata to add different title to nested pages
 #### all content added over time and updated as i learn more about nextJS
 
 **`error.js|tsx` is used for custom error also it worked for nested error files** 
+- these must me declared as client component
 - you will find all necessory files here `./products/[productsId]/reviews/whyused.md`
-> Last Updated 7:45 PM | 27 Sept 2025
+
+`global-error.js|tsx` require html and bodt tags and this works only in production builds
+> Last Updated 8:59 PM | 27 Sept 2025
